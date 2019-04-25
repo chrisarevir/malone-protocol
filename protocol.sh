@@ -29,4 +29,5 @@ fi
 echo  You\'re the sunflower
 curl -o "$IMG_OUT" "$IMG_URL"
 
-osascript -e "tell application \"Finder\" to set desktop picture to \"$IMG_OUT\" as POSIX file"
+# osascript -e "tell application \"Finder\" to set desktop picture to \"$IMG_OUT\" as POSIX file"
+osascript -e "tell application \"System Events\" to tell every desktop to set picture to \"$IMG_OUT\" as POSIX FILE"
