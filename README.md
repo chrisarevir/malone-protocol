@@ -12,7 +12,7 @@ On Macs, it's as simple as `cmd + ctrl + q`.
 
 On Windows, it's as simple as `win + L`
 
-This is my declaration.
+This is my declaration (to the tune of Sunflower by Post Malone):
 
 ```
 Needless to say, I keep it in git
