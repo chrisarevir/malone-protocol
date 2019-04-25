@@ -10,19 +10,20 @@ esac
 
 OUTDIR=~/.gwagon
 IMG_URL="https://raw.githubusercontent.com/chrisarevir/malone-protocol/master/assets/$background-$number.jpg"
-IMG_OUT="~/.gwagon/background-$number.jpg"
+IMG_OUT=~/.gwagon/background.jpg
 
 # echo $IMG_URL
+# echo $IMG_OUT
 
-unameOut="$(uname -s)" 
+# unameOut="$(uname -s)"
 
-case "${unameOut}" in
-    Linux*)     machine=Linux;;
-    Darwin*)    machine=Mac;;
-    CYGWIN*)    machine=Cygwin;;
-    MINGW*)     machine=MinGw;;
-    *)          machine="UNKNOWN:${unameOut}"
-esac
+# case "${unameOut}" in
+#     Linux*)     machine=Linux;;
+#     Darwin*)    machine=Mac;;
+#     CYGWIN*)    machine=Cygwin;;
+#     MINGW*)     machine=MinGw;;
+#     *)          machine="UNKNOWN:${unameOut}"
+# esac
 
 if [ ! -d "$OUTDIR" ]
 then
@@ -32,7 +33,7 @@ fi
 
 # Made the directory, now to get the image
 echo  You\'re the sunflower
-curl -o "$IMG_OUT" "$IMG_URL"
+curl $IMG_URL > $IMG_OUT
 
-# osascript -e "tell application \"Finder\" to set desktop picture to \"$IMG_OUT\" as POSIX file"
-osascript -e "tell application \"System Events\" to tell every desktop to set picture to \"$IMG_OUT\" as POSIX FILE"
+osascript -e "tell application \"Finder\" to set desktop picture to \"$IMG_OUT\" as POSIX file"
+# osascript -e "tell application \"System Events\" to tell every desktop to set picture to \"$IMG_OUT\" as POSIX FILE"
