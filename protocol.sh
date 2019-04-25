@@ -1,5 +1,5 @@
 OUTDIR=~/.gwagon
-IMG_URL=https://raw.githubusercontent.com/chrisarevir/malone-protocol/master/assets/image-2.jpg
+IMG_URL=https://raw.githubusercontent.com/chrisarevir/malone-protocol/master/assets/malone-1.jpg
 IMG_OUT=~/.gwagon/background.jpg
 
 unameOut="$(uname -s)"
