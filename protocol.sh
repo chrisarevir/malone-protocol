@@ -1,6 +1,6 @@
 OUTDIR=~/.gwagon
-IMG_URL=https://raw.githubusercontent.com/chrisarevir/malone-protocol/master/assets/image-1.jpg
-IMG_OUT=~/.gwagon/background.png
+IMG_URL=https://raw.githubusercontent.com/chrisarevir/malone-protocol/master/assets/image-2.jpg
+IMG_OUT=~/.gwagon/background.jpg
 
 unameOut="$(uname -s)"
 
@@ -17,7 +17,7 @@ esac
 #   echo "Curl Exists!"
 # fi
 
-# TODO: Consider wget
+# TODO: Consider wget?
 
 if [ ! -d "$OUTDIR" ]
 then
@@ -26,4 +26,7 @@ then
 fi
 
 # Made the directory, now to get the image
+echo  You\'re the sunflower
 curl -o "$IMG_OUT" "$IMG_URL"
+
+osascript -e "tell application \"Finder\" to set desktop picture to \"$IMG_OUT\" as POSIX file"
