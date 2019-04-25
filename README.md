@@ -4,13 +4,13 @@
 It's a moment when I show up, got 'em sayin', "Wow" (Wow, wow)
 ```
 
-Don't worry, I won't do anything _too_ bad.
+Don't worry, I haven't done anything _too_ bad.
 
 It's very simple to lock your computer before getting up and going somewhere else without it. Unfortunately, not many people do this. What a shame.
 
 On Macs, it's as simple as `cmd + ctrl + q`.
 
-On Windows, it's as simple as `win + L`
+On Windows, it's as simple as `win + L`.
 
 This is my declaration (to the tune of Sunflower by Post Malone):
 
