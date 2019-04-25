@@ -1,8 +1,20 @@
+case "${1}" in
+  taylor*)
+    background='taylor'
+    number=$((1 + RANDOM % 2))
+    ;;
+  *)
+    background='malone'
+    number=$((1 + RANDOM % 5))
+esac
+
 OUTDIR=~/.gwagon
-IMG_URL=https://raw.githubusercontent.com/chrisarevir/malone-protocol/master/assets/malone-1.jpg
+IMG_URL="https://raw.githubusercontent.com/chrisarevir/malone-protocol/master/assets/$background-$number.jpg"
 IMG_OUT=~/.gwagon/background.jpg
 
-unameOut="$(uname -s)"
+# echo $IMG_URL
+
+unameOut="$(uname -s)" 
 
 case "${unameOut}" in
     Linux*)     machine=Linux;;
@@ -11,13 +23,6 @@ case "${unameOut}" in
     MINGW*)     machine=MinGw;;
     *)          machine="UNKNOWN:${unameOut}"
 esac
-
-# TODO: Figure out what to do if curl doesn't exist ^^;
-# if hash curl 2>/dev/null; then
-#   echo "Curl Exists!"
-# fi
-
-# TODO: Consider wget?
 
 if [ ! -d "$OUTDIR" ]
 then
