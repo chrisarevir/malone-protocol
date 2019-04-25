@@ -33,4 +33,14 @@ While we may be getting more secure to cyber-based espionage, there's nothing th
 http://bit.ly/g-wagon
 ```
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4jArvf14WvE?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="display: none">
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/4jArvf14WvE?autoplay=1"
+    frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  >
+  </iframe>
+</div>
