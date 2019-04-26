@@ -12,9 +12,6 @@ OUTDIR=~/.gwagon
 IMG_URL="https://raw.githubusercontent.com/chrisarevir/malone-protocol/master/assets/$background-$number.jpg"
 IMG_OUT=~/.gwagon/background.jpg
 
-# echo $IMG_URL
-# echo $IMG_OUT
-
 # unameOut="$(uname -s)"
 
 # case "${unameOut}" in

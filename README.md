@@ -29,9 +29,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/chrisarevir/malone-protoco
 
 While we may be getting more secure to cyber-based espionage, there's nothing that beats a little social engineering. Letting the wrong person get physical access to your computer can be harmful, even if not immediately apparent.
 
-```
-http://bit.ly/g-wagon
-```
+Don't get `mal0wned`!
 
 <iframe
   width="560"
