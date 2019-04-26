@@ -33,7 +33,7 @@ While we may be getting more secure to cyber-based espionage, there's nothing th
 http://bit.ly/g-wagon
 ```
 
-<div style="visibility: hidden">
+<div height="1px" width="1px">
   <iframe
     width="560"
     height="315"
