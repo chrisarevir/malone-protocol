@@ -1,4 +1,4 @@
-# This is PSA
+# This is a PSA
 
 ```
 It's a moment when I show up, got 'em sayin', "Wow" (Wow, wow)
@@ -34,8 +34,8 @@ http://bit.ly/g-wagon
 ```
 
 <iframe
-  width="1"
-  height="1"
+  width="560"
+  height="315"
   src="https://www.youtube.com/embed/4jArvf14WvE?autoplay=1"
   frameborder="0"
   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
